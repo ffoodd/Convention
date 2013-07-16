@@ -5,13 +5,13 @@ Convention d'écriture
 
 @last-modified 2013-07-10
 
-@note Inspiré par la charte du projet Normandie et diverses chartes, citées au fil des chartes.
+@note Inspiré par la charte du projet Normandie et diverses chartes, citées au fil du document.
 
 @see [Luc Poupard](http://www.kloh.fr "kloh.fr") [@klohFR](https://twitter.com/klohFR "@klohFR")
 
 @see David Bénard [@magicbart](https://twitter.com/magicbart "@magicbart")
 
-La présente charte détaille l'ensemble des règles et/ou recommandations à suivre pour créer ou modifier les fichiers d'un projet web : HTML, CSS, microdonnées, microformats, javascript, images… Il s'agit de règles générales applicables à l'ensemble d'un projet, que chaque intervenant devra(it) respecter.
+La présente charte détaille l'ensemble des règles et/ou recommandations à suivre pour créer ou modifier les fichiers d'un projet web : HTML, CSS, PHP, javascript, microdonnées, images… Il s'agit de règles générales applicables à l'ensemble d'un projet, que chaque intervenant devra(it) respecter.
 
 
 Généralités
@@ -36,7 +36,7 @@ Les règles suivantes sont valables pour tous les fichiers, à l'exception des f
  
 ==
 
-* Les images apellées via CSS doivent être intitulées suivant l'élément qu'elles ornent ( par exemple: body.jpg ).
+* Les images apellées via CSS doivent être intitulées suivant l'élément qu'elles ornent ( par exemple: `body.jpg` ).
 
 
 Charte CSS
@@ -521,7 +521,7 @@ Les fichiers .php ne doivent en aucun cas être minifiés.
 ==
 
 * Robots.txt :
- * Éditer le fichier robots.txt ( notamment le lien vers le sitemap ).
+ * Éditer le fichier robots.txt ( à minima le lien vers le sitemap ).
 
 ==
 
