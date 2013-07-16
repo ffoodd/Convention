@@ -26,10 +26,11 @@ Généralités
 Règle de nommage
 ----------------
 
-Les règles suivantes sont valables pour tous les fichiers, à l'exception des fichiers spécifiques : par exemple les templates WordPress qui doivent suivre les règles inhérentes à [la hiérarchie des templates WordPress](http://codex.wordpress.org/fr:Hi%C3%A9rarchie_de_modeles).
+Les règles suivantes sont valables pour tous les fichiers, à l'exception des fichiers spécifiques : par exemple les templates WordPress qui doivent suivre les règles inhérentes à [la hiérarchie des templates WordPress](http://codex.wordpress.org/fr:Hi%C3%A9rarchie_de_modeles), ou les éléments Zend qui doivent respecter [les standards de Zend](http://framework.zend.com/wiki/display/ZFDEV2/Coding+Standards "Wiki Zend Coding Standard").
 
 * Les noms de fichiers, classes, identifiants et fonctions doivent être :
  * En Français,
+ * Sans aucune caractère accentué,
  * Explicites et pertinents ( proscrire les `.bloc` par exemple ),
  * Au singulier,
  * Basés sur la [méthode BEM](http://bem.info/method/) ( originellement conçue pour les sélecteurs CSS, mais que j'aime étendre aux fonctions PHP ou noms de fichiers sources par exemple ).
@@ -378,7 +379,7 @@ Charte HTML
 Charte Javascript
 -----------------
 
-Ça n'est pas ma spécialité, vous voilà prévenus !
+Ça n'est pas ma spécialité, vous voilà prévenus ! Ces recommandations sont issues de ma pratique du javascript, majoritairement limitée à l'utilisation de jQuery et de ses acolytes de plugin. Elles ne conviendront peut-être pas à votre projet, voire seront même contre-indiquées par la librairie que vous utilisez !
 
 * Indentation : Utiliser 2 espaces pour chaque niveau d'indentation.
 
@@ -422,6 +423,8 @@ Charte Javascript
 Charte PHP
 ----------
 
+*Attention* : ces conventions sont conséquentes d'une utilisation récurrente de WordPress, et ne conviennent pas à tous les cas d'utilisation ( notamment Zend qui dispose [d'un standard de codage](http://framework.zend.com/wiki/display/ZFDEV2/Coding+Standards) particulier, et souvent contradictoire avec mes propres recommandations ).
+
 * Indentation : Utiliser 2 espaces pour chaque niveau d'indentation.
 
 * Retours chariots : Revenir à la ligne entre chaque fonction, et indenter en conséquence.
@@ -454,7 +457,7 @@ Charte PHP
 
 * Nommage : Les fonctions doivent être préfixées par un nom de code pour le projet ( par exemple `ffeeeedd__` ) et disposer d'un intitulé clair, en français ( le cas échéant, dans la langue de l'auteur ).
 
-* Ne jamais utiliser de CamelCase.
+* Ne jamais utiliser de CamelCase (!) Si vous utilisez Zend, cette règle est absurde.
  
 ==
 
