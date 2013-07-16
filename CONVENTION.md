@@ -3,7 +3,7 @@ Convention d'écriture
 
 @author Gaël Poupard
 
-@last-modified 2013-07-10
+@last-modified 2013-07-16
 
 @note Inspiré par la charte du projet Normandie et diverses chartes, citées au fil du document.
 
@@ -30,7 +30,7 @@ Les règles suivantes sont valables pour tous les fichiers, à l'exception des f
 
 * Les noms de fichiers, classes, identifiants et fonctions doivent être :
  * En Français,
- * Sans aucune caractère accentué,
+ * Sans aucun caractère accentué,
  * Explicites et pertinents ( proscrire les `.bloc` par exemple ),
  * Au singulier,
  * Basés sur la [méthode BEM](http://bem.info/method/) ( originellement conçue pour les sélecteurs CSS, mais que j'aime étendre aux fonctions PHP ou noms de fichiers sources par exemple ).
