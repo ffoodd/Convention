@@ -1,7 +1,13 @@
 Charte PHP
 ==========
 
-*Attention* : ces recommandations sont conséquentes d'une utilisation récurrente de WordPress, et ne conviennent pas à tous les cas d'utilisation ( notamment Zend qui dispose [d'un standard de codage](http://framework.zend.com/wiki/display/ZFDEV2/Coding+Standards) particulier, et souvent contradictoire avec mes propres recommandations ).
+*Attention* : ces recommandations sont conséquentes d'une utilisation récurrente de WordPress, et ne conviennent pas à tous les cas d'utilisation.
+
+* Conventions particulières :
+ * Si vous codez dans Magento ou Zend, vous devriez jeter un œil [au standard de codage](http://framework.zend.com/wiki/display/ZFDEV2/Coding+Standards).
+ * Prestashop dispose également d'une [norme de développement](http://doc.prestashop.com/pages/viewpage.action?pageId=15171593).
+
+Si vous travaillez dans un thème WordPress, ces règles pourront vous convenir :
 
 * Indentation : Utiliser 2 espaces pour chaque niveau d'indentation.
 
@@ -35,7 +41,7 @@ Charte PHP
 
 * Nommage : Les fonctions doivent être préfixées par un nom de code pour le projet ( par exemple `ffeeeedd__` ) et disposer d'un intitulé clair, en français ( le cas échéant, dans la langue de l'auteur ).
 
-* Ne jamais utiliser de CamelCase (!) Si vous utilisez Zend, cette règle est absurde.
+* Ne jamais utiliser de CamelCase.
  
 ==
 
