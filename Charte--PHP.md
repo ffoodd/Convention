@@ -21,7 +21,7 @@ Si vous travaillez dans un thème WordPress, ces règles pourront vous convenir 
 
 * Concaténation : Dans des chaînes concaténées, toujours cerner les points par des espaces : `echo '<a href="' . $lien . '">';`.
 
-* Ouverture de PHP : Toujours utiliser la version complète pour ouvrir php. Ex: `<?php .. ?>` au lieu de `<? ... ?>`.
+* Ouverture de PHP : Toujours utiliser la version complète pour ouvrir php, et la faire suivre d'une espace. Ex: `<?php ... ?>` au lieu de `<? ... ?>`.
 
 * Espaces : Supprimer les espaces inutiles en bout de ligne.
 
