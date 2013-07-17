@@ -9,15 +9,15 @@ Charte Javascript
 
 * Accolades : L'accolade ouvrante doit être sur la même ligne que la définition de la fonction et précédée d'une espace; l'accolade fermante doit être isolée sur la ligne suivant la dernière déclaration de la fonction.
 
-* Parenthèses : Toujours cerner les parenthèses d'espace `if ( this ) ` y compris dans les opérations. Ex: `i = ( 20 + 30 ) - 17`;.
+* Parenthèses : Toujours cerner les parenthèses d'espaces `if ( this ) ` y compris dans les opérations. Ex: `i = ( 20 + 30 ) - 17`;.
 
 * Espaces : Supprimer les espaces inutiles en bout de ligne.
 
 * Ligne seule : Rester sur une seule ligne si une seule action est executée dans un `if`, `for` ou `while`.
 
 * Commentaires :
- * Commenter la fermeture de chaque fonction.
- * Annoter les fonctions et plugins particuliers ( cf point suivant "Annontations" ).
+ * Commenter la fermeture de chaque fonction;
+ * Annoter les fonctions et plugins particuliers ( cf point suivant "Annotations" );
  * Expliquer les fonctions dont la lecture n'est pas naturelle.
 
 ==

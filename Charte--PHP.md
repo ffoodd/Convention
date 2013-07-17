@@ -22,9 +22,9 @@ Charte PHP
 * Virgules : Toujours ajouter une espace après une virgule.
 
 * Commentaires :
- * Un commentaire d'introduction pour chaque fonction est bienvenu.
- * Un commentaire sur une seule ligne commence par `//`.
- * Un commentaire sur plusieurs lignes débute par `/*` et se termine par `*/`.
+ * Un commentaire d'introduction pour chaque fonction est bienvenu;
+ * Un commentaire sur une seule ligne commence par `//`;
+ * Un commentaire sur plusieurs lignes débute par `/*` et se termine par `*/`;
  * Les commentaires servent également à baliser les fichiers et créer un sommaire, à l'instar des fichiers css.
 
 ==

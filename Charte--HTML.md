@@ -8,9 +8,9 @@ Charte HTML
 * Langue : La langue doit être spécifiée sur la balise `<html>` ( ex: `lang="fr-FR"` ).
 
 * Organisation du `<head>` :
- * La `<meta charset="utf-8">` doit être le premier enfant du `<head>`.
- * La balise `<title>` doit venir en deuxième position.
- * Ajouter la balise `<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">` en vue d'améliorer le rendu sur IE.
+ * La `<meta charset="utf-8">` doit être le premier enfant du `<head>`;
+ * La balise `<title>` doit venir en deuxième position;
+ * Ajouter la balise `<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">` en vue d'améliorer le rendu sur IE;
  * La balise `<base>` est également primordiale et doit être spécifiée.
 
 ==
@@ -36,74 +36,74 @@ Charte HTML
 * Fermeture de balise : Chaque balise doit être correctement fermée; les balises auto-fermantes doivent contenir un espace avant le slash de fermeture.
 
 * Attributs :
- * Ne pas fournir l'attribut `type` pour les styles et scripts.
- * Utiliser des guillemets doubles pour cerner les valeurs des attributs.
- * Spécifier les *rôles ARIA* dès que possible ( cf: [WAI ARIA](http://www.w3.org/TR/wai-aria/ "La recommandation du W3C") ).
- * Ajouter les *microdonnées* lorsque c'est utile ( cf: [schema.org](http://schema.org/docs/full.html "Liste des microdonnées") ).
- * L'attribut `style` ne doit pas être utilisé.
+ * Ne pas fournir l'attribut `type` pour les styles et scripts;
+ * Utiliser des guillemets doubles pour cerner les valeurs des attributs;
+ * Spécifier les *rôles ARIA* dès que possible ( cf: [WAI ARIA](http://www.w3.org/TR/wai-aria/ "La recommandation du W3C") );
+ * Ajouter les *microdonnées* lorsque c'est utile ( cf: [schema.org](http://schema.org/docs/full.html "Liste des microdonnées") );
+ * L'attribut `style` ne doit pas être utilisé;
  * Dans le cas de nombreux attributs, on envisagera de revenir à la ligne entre chaque attribut afin d'améliorer la lisibilité.
 
 ==
 
 * Ordre des attributs :
- 1. `class` : valoriser l'utilisation des classes par rapport aux IDs pour les CSS.
- 2. `id`
- 3. `role`
- 4. `data-*` : pour servir de crochet au javascript.
- 5. `aria-*` : pour l'accessibilité et la sémantique.
+ 1. `class` : valoriser l'utilisation des classes par rapport aux IDs pour les CSS;
+ 2. `id`;
+ 3. `role`;
+ 4. `data-*` : pour servir de crochet au javascript;
+ 5. `aria-*` : pour l'accessibilité et la sémantique;
  6. autre(s) : href, title, alt, microdonnées, etc...
 
 ==
 
 * Métadonnées :
- * Ajouter le profil [DublinCore](http://dublincore.org/documents/2008/08/04/dc-html/ "Profil DublinCore") sur `<html>`.
+ * Ajouter le profil [DublinCore](http://dublincore.org/documents/2008/08/04/dc-html/ "Profil DublinCore") sur `<html>`;
  * Les métas DublinCore, OpenGraph et TwitterCard doivent être renseignées.
 
 ==
 
 * Les favicon, Apple icon et tuiles Windows doivent être fournies aux formats demandés :
- * `apple-touch-icon-144x144.png`
- * `apple-touch-icon-114x114.png`
- * `apple-touch-icon-72x72.png`
- * `apple-touch-icon.png`
- * `favicon.ico` (48x48)
- * `favicon.png` (32x32)
- * `favicon-128.png`
- * `favicon.ico` (16x16)
-* Pour ce faire, utiliser le fichier `favicons.psd` :
- * Modifiez le premier objet dynamique en y incluant votre image (logo ou autre), enregistrez l'objet puis le `psd`.
- * Choisissez "Enregistrer pour le web", au format `png-24`. Toutes les images nécessaires seront exportées, déjà nommées correctement.
- * Convertissez les fichiers dont le nom se termine par "-ico.png" au format `.ico` via [favicon.cc](http://www.favicon.cc/ 'Convertissez vos png en ico') et les renommer en `favicon.ico`.
- * *Exception* : le `favicon.ico` de 16x16 pixel doit être placé à la racine du site.
+ * `apple-touch-icon-144x144.png`;
+ * `apple-touch-icon-114x114.png`;
+ * `apple-touch-icon-72x72.png`;
+ * `apple-touch-icon.png`;
+ * `favicon.ico` (48x48);
+ * `favicon.png` (32x32);
+ * `favicon-128.png`;
+ * `favicon.ico` (16x16);
+* Pour ce faire, utilisez le fichier `favicons.psd` :
+ * Modifiez le premier objet dynamique en y incluant votre image (logo ou autre), enregistrez l'objet puis le `psd`;
+ * Choisissez "Enregistrer pour le web", au format `png-24`. Toutes les images nécessaires seront exportées, déjà nommées correctement;
+ * Convertissez les fichiers dont le nom se termine par "-ico.png" au format `.ico` via [favicon.cc](http://www.favicon.cc/ 'Convertissez vos png en ico') et les renommer en `favicon.ico`;
+ * *Exception* : le `favicon.ico` de 16x16 pixel doit être placé à la racine du site;
  * Optimisez vos `.png` à l'aide de [PNG Optimizer](http://psydk.org/PngOptimizer.php) par exemple, et le tour est joué !
 
 ==
 
 * Formulaires :
- * Chaque champ est associé à un label, avec les attributs `for` et `aria-labelled-by`.
- * Le format attendu est indiqué sous forme de légende à côté du champ.
- * Les placeholders ne doivent pas être la seule indication du format attendu.
- * L'attribut `type` doit être utilisé efficacement.
- * Les champs obligatoires sont indiqués par une indication textuelle à côté du label, mais aussi via les attributs `required` et `aria-required`.
- * Les erreurs sont retournées champ par champ, avec un intitulé explicitant l'erreur.
- * Le succès d'une soumission est également explicité textuellement.
+ * Chaque champ est associé à un label, avec les attributs `for` et `aria-labelled-by`;
+ * Le format attendu est indiqué sous forme de légende à côté du champ;
+ * Les placeholders ne doivent pas être la seule indication du format attendu;
+ * L'attribut `type` doit être utilisé efficacement;
+ * Les champs obligatoires sont indiqués par une indication textuelle à côté du label, mais aussi via les attributs `required` et `aria-required`;
+ * Les erreurs sont retournées champ par champ, avec un intitulé explicitant l'erreur;
+ * Le succès d'une soumission est également explicité textuellement;
  * Les contraintes de chaque champ sont indiquées à côté de celui-ci ( masque de saisie, sensibilité à la casse, nombre de caractères... ).
 
 ==
 
 * Tableaux :
- * Chaque tableau de données doit disposer d'un titre.
- * Les en-têtes sont correctement balisées ( `<th>` ).
- * Les cellules doivent être reliées à leur en-tête ( `headers=""` ).
+ * Chaque tableau de données doit disposer d'un titre;
+ * Les en-têtes sont correctement balisées ( `<th>` );
+ * Les cellules doivent être reliées à leur en-tête ( `headers=""` );
 
 ==
 
 * Liens :
- * Chaque lien est doté d'un intitulé utile, décrivant sa fonction et/ou sa cible.
- * Éviter les intitulés passe-partout (en savoir plus, cliquez ici).
- * Le soulignement est réservé aux liens, afin de les distinguer visuellement.
- * Les liens visités ont un style particulier, différenciant.
- * Les liens externes sont distingués visuellement.
+ * Chaque lien est doté d'un intitulé utile, décrivant sa fonction et/ou sa cible;
+ * Éviter les intitulés passe-partout (en savoir plus, cliquez ici);
+ * Le soulignement est réservé aux liens, afin de les distinguer visuellement;
+ * Les liens visités ont un style particulier, différenciant;
+ * Les liens externes sont distingués visuellement;
  * Éviter l'emploi de `<a href="#">` comme bouton d'action; préferer `<button type="button">`.
 
 ==
@@ -117,7 +117,7 @@ Charte HTML
 * Les mots ne comportent ni espaces ni balisage interne (`<span>`L`</span>`ettrine).
 
 * Compatibilité :
- * S'appuyer sur des commentaires conditionnels pour cibler les versions d'IE.
+ * S'appuyer sur des commentaires conditionnels pour cibler les versions d'IE;
  * Une classe `no-js` doit être présente sur `<html>` afin de tester l'activation du js.
 
 ==
