@@ -73,9 +73,9 @@ Charte HTML
 * Pour ce faire, utilisez le fichier `favicons.psd` :
  * Modifiez le premier objet dynamique en y incluant votre image (logo ou autre), enregistrez l'objet puis le `psd`;
  * Choisissez "Enregistrer pour le web", au format `png-24`. Toutes les images nécessaires seront exportées, déjà nommées correctement;
- * Convertissez les fichiers dont le nom se termine par "-ico.png" au format `.ico` via [favicon.cc](http://www.favicon.cc/ 'Convertissez vos png en ico') et les renommer en `favicon.ico`;
- * *Exception* : le `favicon.ico` de 16x16 pixel doit être placé à la racine du site;
- * Optimisez vos `.png` à l'aide de [PNG Optimizer](http://psydk.org/PngOptimizer.php) par exemple, et le tour est joué !
+* Optimisez vos `.png` à l'aide de [PNG Optimizer](http://psydk.org/PngOptimizer.php) par exemple;
+ * Convertissez les fichiers dont le nom se termine par "-ico.png" au format `.ico` via [ConvertIco](http://www.convertico.com/ 'Convertissez vos png en ico') et les renommer en `favicon.ico`;
+ * *Exception* : le `favicon.ico` de 16x16 pixel doit être placé à la racine du site, et le tour est joué !
 
 ==
 
@@ -153,4 +153,5 @@ Charte HTML
  * [Idiomatic HTML](https://github.com/necolas/idiomatic-html/)
  * [HTML5 Boilerplate Favicon PSD Template](http://drublic.de/blog/html5-boilerplate-favicons-psd-template/)
  * [favicon.cc](http://www.favicon.cc/ 'Convertissez vos png en ico')
+ * [ConvertIco](http://www.convertico.com/ 'Convertissez vos png en ico')
  * [PNG Optimizer](http://psydk.org/PngOptimizer.php)
