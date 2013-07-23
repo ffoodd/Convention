@@ -69,7 +69,7 @@ Charte CSS
 ==
 
 * Liens :
- * Les liens doivent être stylés en suivant [la méthode LoVeHAte](http://meyerweb.com/eric/css/link-specificity.html "Article d'Eric Meyer") comme suit :
+ * Les liens doivent être stylés en suivant [la méthode LoVeFuckHAte](http://meyerweb.com/eric/css/link-specificity.html "Article d'Eric Meyer"), [précisée en français par Romy](http://romy.tetue.net/love-fuck-hate), comme suit :
  * `a:link { }` : pour les liens non visités;
  * `a:visited { }` : pour les liens visités;
  * `a:hover { }` : pour les liens survolés;
