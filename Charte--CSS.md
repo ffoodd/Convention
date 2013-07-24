@@ -70,8 +70,10 @@ Charte CSS
 
 * Liens :
  * Les liens doivent être stylés en suivant [la méthode LoVeFuckHAte](http://meyerweb.com/eric/css/link-specificity.html "Article d'Eric Meyer"), [précisée en français par Romy](http://romy.tetue.net/love-fuck-hate), comme suit :
- * `a:link { }` : pour les liens non visités;
+ * `a { }` : pour tous les liens;
+ * `a:link { }` : pour les liens non visités et disposant d'un `href` ( à n'utiliser qu'en cas de réél besoin, ce qui est rare );
  * `a:visited { }` : pour les liens visités;
+ * `a:focus { }` : pour les liens sélectionnés;
  * `a:hover { }` : pour les liens survolés;
  * `a:active { }` : pour les liens actifs.
 
