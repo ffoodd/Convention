@@ -61,21 +61,9 @@ Charte HTML
 
 ==
 
-* Les favicon, Apple icon et tuiles Windows doivent être fournies aux formats demandés :
- * `apple-touch-icon-144x144.png`;
- * `apple-touch-icon-114x114.png`;
- * `apple-touch-icon-72x72.png`;
- * `apple-touch-icon.png`;
- * `favicon.ico` (48x48);
- * `favicon.png` (32x32);
- * `favicon-128.png`;
- * `favicon.ico` (16x16);
-* Pour ce faire, utilisez le fichier `favicons.psd` :
- * Modifiez le premier objet dynamique en y incluant votre image (logo ou autre), enregistrez l'objet puis le `psd`;
- * Choisissez "Enregistrer pour le web", au format `png-24`. Toutes les images nécessaires seront exportées, déjà nommées correctement;
-* Optimisez vos `.png` à l'aide de [PNG Optimizer](http://psydk.org/PngOptimizer.php) par exemple;
- * Convertissez les fichiers dont le nom se termine par "-ico.png" au format `.ico` via [ConvertIco](http://www.convertico.com/ 'Convertissez vos png en ico') et les renommer en `favicon.ico`;
- * *Exception* : le `favicon.ico` de 16x16 pixel doit être placé à la racine du site, et le tour est joué !
+* Favicon :
+ * Deux fichiers doivent être présents à la racine : un `favicon.ico` et un un `apple-touch-icon-precomposed.png`;
+ * Ils ne doivent pas être déclarés dans le `<head>` (cf [Everything you always wanted to know about touch icons](http://mathiasbynens.be/notes/touch-icons) ).
 
 ==
 
